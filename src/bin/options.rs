@@ -12,7 +12,7 @@ fn main() {
 }
 
 //2. Options
-fn print_first_word1(sentence: &str) {
+fn print_first_word1(sentence : &str) {
     let first_word: &str = sentence.split_whitespace().next().unwrap_or_else(|| "Chaine vide");
     println!("Premier mot : {}", first_word);
 }
